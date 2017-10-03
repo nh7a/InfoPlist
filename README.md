@@ -16,5 +16,5 @@ print("bundleShortVersionString: \(Bundle.infoPlist.bundleShortVersionString)")
 You can install InfoPlist via [Carthage](https://github.com/Carthage/Carthage) by adding the following line to your `Cartfile`:
 
 ```
-github "nh7a/InfoPlist" "master"
+github "nh7a/InfoPlist"
 ```
