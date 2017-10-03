@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBC83271F836CF3003D5DE9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DBC83261F836CF3003D5DE9 /* README.md */; };
 		0DE4C2AA1F8330FD001B7786 /* InfoPlist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE4C2A01F8330FD001B7786 /* InfoPlist.framework */; };
 		0DE4C2AF1F8330FD001B7786 /* InfoPlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4C2AE1F8330FD001B7786 /* InfoPlistTests.swift */; };
 		0DE4C2B11F8330FD001B7786 /* InfoPlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE4C2A31F8330FD001B7786 /* InfoPlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DBC83261F836CF3003D5DE9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0DE4C2A01F8330FD001B7786 /* InfoPlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfoPlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE4C2A31F8330FD001B7786 /* InfoPlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoPlist.h; sourceTree = "<group>"; };
 		0DE4C2A41F8330FD001B7786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		0DE4C2961F8330FD001B7786 = {
 			isa = PBXGroup;
 			children = (
+				0DBC83261F836CF3003D5DE9 /* README.md */,
 				0DE4C2A21F8330FD001B7786 /* InfoPlist */,
 				0DE4C2AD1F8330FD001B7786 /* InfoPlistTests */,
 				0DE4C2A11F8330FD001B7786 /* Products */,
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBC83271F836CF3003D5DE9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
