@@ -1,6 +1,7 @@
 # InfoPlist
 
-With Swift 4's `Decodable` and `PropertyListDecoder`, `Bundle.main.infoDictionary["CFBundleVersion"] as? String` seems too silly. Why don't we read it in strictly typed Swift way?
+With Swift 4's `Decodable` and `PropertyListDecoder`, `Bundle.main.infoDictionary["CFBundleVersion"] as? String` seems too silly. Why don't we read it in a strictly typed way?
+Something more Swift-like?
 
 ## Usage
 
@@ -40,12 +41,14 @@ print("""
 
 ## Installation
 
+## Carthage
 You can install InfoPlist via [Carthage](https://github.com/Carthage/Carthage) by adding the following line to your `Cartfile`:
 
 ```
 github "nh7a/InfoPlist"
 ```
 
+## Swift Package Manager
 Or maybe via [Swift Package Manager](https://swift.org/package-manager/) by adding the following line to the `dependencies` value of your `Package.swift`.
 
 ```swift
@@ -54,3 +57,13 @@ dependencies: [
 ]
 ```
 
+## Requirements
+
+* Xcode 9.0
+* Swift 4.0
+
+## License
+
+Attributed is free software, and may be redistributed under the terms specified in the [LICENSE] file.
+
+[LICENSE]: /LICENSE
