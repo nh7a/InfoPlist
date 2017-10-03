@@ -68,7 +68,7 @@ public struct InfoPlist: Decodable {
 }
 
 public extension Bundle {
-    static let infoPlist: InfoPlist? = {
+    static let infoPlist: InfoPlist! = {
         guard let url = main.url(forResource: "Info", withExtension: "plist"), let data = try? Data(contentsOf: url) else { return nil }
         do {
             return try PropertyListDecoder().decode(InfoPlist.self, from: data)

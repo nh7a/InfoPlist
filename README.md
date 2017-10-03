@@ -7,8 +7,8 @@ With Swift 4's Decodable and PropertyListDecoder, `Bundle.main.infoDictionary["C
 ```swift
 import InfoPlist
 
-print("bundleVersion: \(Bundle.infoPlist!.bundleVersion)")
-print("bundleShortVersionString: \(Bundle.infoPlist!.bundleShortVersionString)")
+print("bundleVersion: \(Bundle.infoPlist.bundleVersion)")
+print("bundleShortVersionString: \(Bundle.infoPlist.bundleShortVersionString)")
 ```
 
 ## Installation
